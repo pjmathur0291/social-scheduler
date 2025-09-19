@@ -1,0 +1,331 @@
+<script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scope College Medical Technology Courses",
+  "description": "Comprehensive list of medical technology and healthcare courses offered by Scope College",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": "1",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/courses/advanced-diploma-in-medical-lab-technology/",
+        "name": "Advanced Diploma in Medical Lab Technology (ADMLT)",
+        "description": "Advanced diploma program in medical laboratory technology",
+        "courseDuration": "1.5 years (3 semesters)",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "2",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/courses/bsc-medical-laboratory-technology/",
+        "name": "BSc in Medical Laboratory Technology",
+        "description": "Bachelor of Science in Medical Laboratory Technology",
+        "courseDuration": "6 semesters / 3 years",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "3",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/courses/bachelor-of-vocation-in-medical-lab-technology-2/",
+        "name": "Bachelor of Vocation in Medical Lab Technology (Bvoc MLT)",
+        "description": "Vocational bachelor's degree in medical laboratory technology",
+        "courseDuration": "2 or 3 years",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "4",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/courses/diploma-course-in-medical-laboratory-technology/",
+        "name": "Diploma in Medical Lab Technology (DMLT)",
+        "description": "Diploma course in medical laboratory technology",
+        "courseDuration": "2 years",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "5",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/courses/bachelor-of-vocation-in-radiology-medical-imaging-technology/",
+        "name": "Bachelor of Vocational in Radiology and Medical Imaging Technology",
+        "description": "Vocational bachelor's degree in radiology and medical imaging technology",
+        "courseDuration": "2 or 3 years",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "6",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/courses/diploma-cardiology-technology/",
+        "name": "Diploma Course in Cardiology Technician",
+        "description": "Diploma course in cardiology technology",
+        "courseDuration": "2 years",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "7",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/courses/diploma-course-in-dialysis-technician/",
+        "name": "Diploma Course in Dialysis Technician",
+        "description": "Diploma course in dialysis technology",
+        "courseDuration": "2 years",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "8",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/courses/diploma-in-cardiology-technician-assistant/",
+        "name": "Diploma in Cardiology Technician Assistant",
+        "description": "Diploma course for cardiology technician assistant",
+        "courseDuration": "6 months",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "9",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/courses/certificate-course-in-dialysis-technician/",
+        "name": "Certification Course in Dialysis Technician",
+        "description": "Certificate course in dialysis technology",
+        "courseDuration": "6 months or 1 year",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "10",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/courses/certificate-in-general-nursing-midwifery-assistant-scope-college/",
+        "name": "Certification Course in General Nursing & Midwifery Assistant (GNMA)",
+        "description": "Certificate course in general nursing and midwifery assistance",
+        "courseDuration": "1 year",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "11",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/courses/certificate-course-in-operation-theatre-technician/",
+        "name": "Certificate in Operation Theatre Technician Course",
+        "description": "Certificate course in operation theatre technology",
+        "courseDuration": "1 year",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "12",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/courses/certificate-course-in-medical-laboratory-technician/",
+        "name": "Certification in Medical Lab Technology (CMLT)",
+        "description": "Certificate course in medical laboratory technology",
+        "courseDuration": "1 year",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "13",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/courses/certificate-course-in-radiology-technician-scope-college/",
+        "name": "Certification Course in Radiology Technician",
+        "description": "Certificate course in radiology technology",
+        "courseDuration": "6 months or 1 year",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "14",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/courses/x-ray-technician/",
+        "name": "Certification X-Ray Technician (MSBVE)",
+        "description": "Certificate course in X-ray technology",
+        "courseDuration": "1 year",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "15",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/courses/certified-mri-technician/",
+        "name": "Certification in MRI Technician",
+        "description": "Certificate course in MRI technology",
+        "courseDuration": "1 year",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "16",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/cardiology-technician-assistant/",
+        "name": "Cardiology Technician Assistant",
+        "description": "Certificate course for cardiology technician assistant",
+        "courseDuration": "6 months",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "17",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/radiology-technician-assistant/",
+        "name": "Radiology Technician Assistant",
+        "description": "Certificate course for radiology technician assistant",
+        "courseDuration": "6 months",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "18",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/ecg-technician/",
+        "name": "Certificate ECG",
+        "description": "Certificate course in ECG technology",
+        "courseDuration": "6 months",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "19",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/phlebotomy-technician/",
+        "name": "Phlebotomy Course",
+        "description": "Certificate course in phlebotomy technology",
+        "courseDuration": "6 months",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": "20",
+      "item": {
+        "@type": "Course",
+        "url": "https://scopecollege.co.in/certification-in-general-duty-assistant/",
+        "name": "Certification in General Duty Assistant",
+        "description": "Certificate course in general duty assistance",
+        "courseDuration": "6 months",
+        "provider": {
+          "@type": "Organization",
+          "name": "Scope College",
+          "url": "https://scopecollege.co.in/"
+        }
+      }
+    }
+  ]
+}
+
+</script>

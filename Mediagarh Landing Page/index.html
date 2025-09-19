@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediagarh - Admissions Simplified. Results Amplified</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <div class="navbar-brand mx-auto">
+                <img src="images/newlogo-1-1.webp" alt="Mediagarh Logo" height="50" class="d-block mx-auto">
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            <span class="text-primary">Admissions Simplified.</span><br>
+                            <span class="text-gradient">Results Amplified.</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            India's Best Marketing Agency for Colleges, Universities and Educational Institutions.
+                        </p>
+                        <p class="hero-description">
+                            Get admissions and fill your vacant seats with Mediagarh's Digital Marketing Services.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary btn-lg me-3">
+                                Let's Talk <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                            <a href="#services" class="btn btn-outline-primary btn-lg">
+                                Our Services
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-video-container">
+                        <div class="hero-video-wrapper">
+                            <video 
+                                class="hero-video" 
+                                autoplay 
+                                muted 
+                                loop 
+                                playsinline
+                                poster="images/0_Kp5Tm1zaE-HD-1-1-scaled.webp">
+                                <source src="https://d1irtyz3bcpn9m.cloudfront.net/Vsl.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-overlay"></div>
+                            <div class="video-controls">
+                                <button class="video-play-btn" onclick="toggleVideo()">
+                                    <i class="fas fa-play" id="playIcon"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Believers Section -->
+    <section class="core-believers py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Core Believers</h2>
+                    <p class="section-subtitle">Trusted by leading educational institutions across India</p>
+                </div>
+            </div>
+            <!-- Owl Carousel Container -->
+            <div class="owl-carousel-container">
+                <!-- Row 1 -->
+                <div class="owl-carousel owl-theme" id="carousel-row-1">
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-13-1.webp" alt="Partner 1" class="img-fluid" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                            <div style="display:none; color: white; font-size: 12px;">Logo 1</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-13-2.webp" alt="Partner 2" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-13-3.webp" alt="Partner 3" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-13-4.webp" alt="Partner 4" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-13-5.webp" alt="Partner 5" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-13-6.webp" alt="Partner 6" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-13-7.webp" alt="Partner 7" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-13-8.webp" alt="Partner 8" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Row 2 -->
+                <div class="owl-carousel owl-theme" id="carousel-row-2">
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-14-1.webp" alt="Partner 9" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-14-2.webp" alt="Partner 10" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-14-3.webp" alt="Partner 11" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-14-4.webp" alt="Partner 12" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-14-5.webp" alt="Partner 13" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-14-6.webp" alt="Partner 14" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-14-7.webp" alt="Partner 15" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-15-1.webp" alt="Partner 16" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Row 3 -->
+                <div class="owl-carousel owl-theme" id="carousel-row-3">
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-15-2.webp" alt="Partner 17" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-15-3.webp" alt="Partner 18" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-15-4.webp" alt="Partner 19" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-15-5.webp" alt="Partner 20" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-16-1.webp" alt="Partner 21" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-16-2.webp" alt="Partner 22" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-16-3.webp" alt="Partner 23" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="believer-logo">
+                            <img src="images/logo/Frame-16-4.webp" alt="Partner 24" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h2 class="section-title">
+                            <span class="text-primary">Admissions Simplified.</span><br>
+                            <span class="text-gradient">Results Amplified</span>
+                        </h2>
+                        <p class="about-description">
+                            We focus on increasing your admissions month after month with real results you can count on. 
+                            No shortcuts, just smart strategies that ensure every effort is put to good use.
+                        </p>
+                        <p class="about-description">
+                            With insights from numerous successful campaigns for schools, colleges, and EdTech brands, 
+                            we've created a system that helps you grow admissions steadily and effectively. It's not just 
+                            about small improvements—it's about building a strong and lasting strategy to keep your institution ahead.
+                        </p>
+                        <div class="highlight-box">
+                            <h4>Fill your vacant seats up to 70% in the upcoming admission session.</h4>
+                            <p>Our strategies are shaped by proven results from top-performing EdTech and coaching brands to ensure consistent growth.</p>
+                            <a href="#contact" class="btn btn-primary">Let's Talk</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img src="images/845wpPxpRxA-HD-1-scaled.webp" alt="About Mediagarh" class="img-fluid rounded-3 shadow-lg">
+                    </div>
+                    <div class="stats-grid mt-4">
+                        <div class="stat-card">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Educational Clients</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Crore Monthly Ad Spend</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">100+</div>
+                            <div class="stat-label">Team Members</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">70%</div>
+                            <div class="stat-label">Seat Fill Rate</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5" id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title text-white">What Clients say about Mediagarh</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="text-white">"Mediagarh transformed our admissions process. We saw a 60% increase in applications within the first quarter."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="images/0_Kp5Tm1zaE-HD-1-1-scaled.webp" alt="Preetam Mehta" class="rounded-circle" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="avatar-fallback" style="display:none; width:100%; height:100%; background:linear-gradient(135deg, #3b82f6, #8b5cf6); border-radius:50%; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:1.2rem;">PM</div>
+                            </div>
+                            <div class="author-info">
+                                <h6 class="text-white">Preetam Mehta</h6>
+                                <span class="text-white">Managing Director, SRN Mehta School</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="text-white">"Their digital marketing strategies helped us reach our target audience effectively. Highly recommended!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="images/845wpPxpRxA-HD-1-scaled.webp" alt="Rajesh R. Turakhia" class="rounded-circle" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="avatar-fallback" style="display:none; width:100%; height:100%; background:linear-gradient(135deg, #3b82f6, #8b5cf6); border-radius:50%; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:1.2rem;">RT</div>
+                            </div>
+                            <div class="author-info">
+                                <h6 class="text-white">Rajesh R. Turakhia</h6>
+                                <span class="text-white">Founder & Director, Frameboxx 2.0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="text-white">"Professional team with excellent results. They understand the education sector like no other."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="images/b0cRaar5tw0-HD-1-scaled.webp" alt="Dr. Zaheesh Moideen" class="rounded-circle" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="avatar-fallback" style="display:none; width:100%; height:100%; background:linear-gradient(135deg, #3b82f6, #8b5cf6); border-radius:50%; align-items:center; justify-content:center; color:white; font-weight:bold; font-size:1.2rem;">ZM</div>
+                            </div>
+                            <div class="author-info">
+                                <h6 class="text-white">Dr. Zaheesh Moideen</h6>
+                                <span class="text-white">Chairman & Founder, IZee Group of Institutions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section py-5 bg-light" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title text-dark">Our Services</h2>
+                    <p class="section-subtitle">While you nurture talent, we ensure your business continues to prosper</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fab fa-google"></i>
+                        </div>
+                        <h5>Google Ads</h5>
+                        <p>Reach the right audience at the right time with high-performing Google Ads campaigns. Our data-driven approach ensures maximum ROI and visibility for your brand.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <h5>Social Media Advertising</h5>
+                        <p>Grow your brand's reach with tailored ad campaigns on platforms like Meta and Instagram. We create engaging ads that drive clicks and boost conversions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h5>Website Design/Development</h5>
+                        <p>Turn visitors into customers with websites designed to impress. We create fast, user-friendly, and visually stunning websites that represent your brand perfectly.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h5>SEO</h5>
+                        <p>Climb to the top of search rankings and attract organic traffic. Our proven SEO strategies ensure your brand stays visible and ahead of the competition.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h5>Creative Designing</h5>
+                        <p>Make your brand unforgettable with innovative and eye-catching designs. From social media creatives to ad banners, we bring your vision to life.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h5>Lead Automation & Nurturing</h5>
+                        <p>Streamline your lead management with automation that works. From capturing to nurturing, we help turn prospects into loyal customers.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h5>Video Ad Production</h5>
+                        <p>Create impactful video ads that grab attention. From scripting to shooting and editing, we handle everything to produce high-quality, scroll-stopping content.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h5>PR Activities</h5>
+                        <p>Build your brand's reputation with strategic PR campaigns. We help you connect with the right audience and create a strong, credible image.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Podcast Section -->
+    <section class="podcast-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title text-white">Watch Our Recent Podcasts</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 col-md-6">
+                    <div class="podcast-card">
+                        <div class="podcast-thumbnail">
+                            <img src="images/INSD.webp" alt="INSD Podcast" class="img-fluid rounded">
+                            <div class="text-overlay">
+                                <div class="overlay-text">
+                                    <span class="text-line-1">75 Centers</span>
+                                    <span class="text-line-2">with Valuation of</span>
+                                    <span class="text-line-3">300 Crores</span>
+                                </div>
+                            </div>
+                            <div class="play-overlay">
+                                <button class="play-btn" onclick="playPodcast('https://d1irtyz3bcpn9m.cloudfront.net/mediagarh_podcast.mp4')">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="podcast-card">
+                        <div class="podcast-thumbnail">
+                            <img src="images/Group-6.webp" alt="Frameboxx Podcast" class="img-fluid rounded">
+                            <div class="text-overlay">
+                                <div class="overlay-text">
+                                    <span class="text-line-1">He Built</span>
+                                    <span class="text-line-2">32+</span>
+                                    <span class="text-line-3">Top Institutes!</span>
+                                </div>
+                            </div>
+                            <div class="play-overlay">
+                                <button class="play-btn" onclick="playPodcast('https://d1irtyz3bcpn9m.cloudfront.net/frameboxx_podcast.mp4')">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="podcast-card">
+                        <div class="podcast-thumbnail">
+                            <img src="images/Group-5-1.webp" alt="IZee Podcast" class="img-fluid rounded">
+                            <div class="text-overlay">
+                                <div class="overlay-text">
+                                    <span class="text-line-1">Leading a</span>
+                                    <span class="text-line-2">Top B-School</span>
+                                    <span class="text-line-3">Secrets Revealed</span>
+                                </div>
+                            </div>
+                            <div class="play-overlay">
+                                <button class="play-btn" onclick="playPodcast('https://d1irtyz3bcpn9m.cloudfront.net/IZee_podcast.mp4')">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="podcast-card">
+                        <div class="podcast-thumbnail">
+                            <img src="images/Group-6-1.webp" alt="Worldview Podcast" class="img-fluid rounded">
+                            <div class="text-overlay">
+                                <div class="overlay-text">
+                                    <span class="text-line-1">BEGUSARAI</span>
+                                    <span class="text-line-2">GOES GLOBAL!</span>
+                                    <span class="text-line-3">WITH A SCHOOL</span>
+                                </div>
+                            </div>
+                            <div class="play-overlay">
+                                <button class="play-btn" onclick="playPodcast('https://d1irtyz3bcpn9m.cloudfront.net/Worldview_podcast.mp4')">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div class="modal fade" id="podcastModal" tabindex="-1" aria-labelledby="podcastModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="podcastModalLabel">Podcast Video</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <video id="podcastVideo" class="w-100" controls>
+                        <source src="" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact-section py-5 bg-primary text-white" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title text-white">Ready to Amplify Your Results?</h2>
+                    <p class="section-subtitle text-white-50">Let's discuss how we can help you fill your vacant seats</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="Your Email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control" placeholder="Phone Number" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <select class="form-select" required>
+                                        <option value="">Institution Type</option>
+                                        <option value="school">School</option>
+                                        <option value="college">College</option>
+                                        <option value="university">University</option>
+                                        <option value="edtech">EdTech</option>
+                                        <option value="coaching">Coaching Center</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" rows="4" placeholder="Tell us about your requirements" required></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-light btn-lg">
+                                        Let's Talk <i class="fas fa-arrow-right ms-2"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4 bg-dark text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 – All Rights Reserved MediaGarh</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row mt-3">
+                <div class="col-12">
+                    <p class="small text-muted">
+                        This site and the products/services offered here are in no way sponsored, affiliated, endorsed, or administered by META™️. 
+                        They have not been reviewed, tested, or certified by Facebook™️. All information is being provided to MediaGarh and not to META™️.
+                    </p>
+                </div>
+            </div> -->
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Scheduler Form Embed Example</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            background: #f9fafb;
+            padding: 40px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .form-container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #1f2937;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #6b7280;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .code-example {
+            background: #1f2937;
+            color: #f9fafb;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 14px;
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+        .note {
+            background: #dbeafe;
+            border: 1px solid #93c5fd;
+            color: #1e40af;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Social Scheduler Form Embed Demo</h1>
+    <p class="subtitle">This page demonstrates how to embed Social Scheduler forms on external websites</p>
+    
+    <div class="note">
+        <strong>Note:</strong> Replace <code>YOUR_FORM_ID</code> with your actual form ID from the Social Scheduler dashboard.
+    </div>
+
+    <div class="container">
+        <h2>Example 1: Iframe Embed</h2>
+        <p>This form loads in an iframe, which is the recommended method for most websites.</p>
+        
+        <!-- Social Scheduler Form Embed -->
+        <div id="social-scheduler-form-iframe" style="min-width: 320px; height: 600px;"></div>
+        <script type="text/javascript" src="http://localhost:3001/embed.js" async></script>
+        <script type="application/social-scheduler-embed">
+        {
+          "type": "iframe",
+          "formId": "YOUR_FORM_ID",
+          "containerId": "social-scheduler-form-iframe",
+          "width": "100%",
+          "height": "600px",
+          "theme": "light",
+          "hideHeader": false
+        }
+        </script>
+        <!-- Social Scheduler Form Embed End -->
+    </div>
+
+    <div class="container">
+        <h2>Example 2: Inline Form</h2>
+        <p>This form renders directly in the page, giving you more control over styling.</p>
+        
+        <!-- Social Scheduler Inline Form -->
+        <div id="social-scheduler-form-inline"></div>
+        <script type="text/javascript" src="http://localhost:3001/embed.js" async></script>
+        <script type="application/social-scheduler-embed">
+        {
+          "type": "inline",
+          "formId": "YOUR_FORM_ID",
+          "containerId": "social-scheduler-form-inline",
+          "theme": "light"
+        }
+        </script>
+        <!-- Social Scheduler Inline Form End -->
+    </div>
+
+    <div class="container">
+        <h2>How to Use</h2>
+        <p>To embed a form on your website:</p>
+        <ol>
+            <li>Go to your Social Scheduler dashboard</li>
+            <li>Navigate to Forms Management</li>
+            <li>Click the "Embed" button for the form you want to embed</li>
+            <li>Copy the generated embed code</li>
+            <li>Paste it into your website's HTML</li>
+        </ol>
+
+        <h3>Embed Code Example:</h3>
+        <div class="code-example">
+&lt;!-- Social Scheduler Form Embed --&gt;
+&lt;div id="social-scheduler-form-123" style="min-width: 320px; height: 600px;"&gt;&lt;/div&gt;
+&lt;script type="text/javascript" src="https://your-domain.com/embed.js" async&gt;&lt;/script&gt;
+&lt;script type="application/social-scheduler-embed"&gt;
+{
+  "type": "iframe",
+  "formId": "form-123",
+  "containerId": "social-scheduler-form-123",
+  "width": "100%",
+  "height": "600px",
+  "theme": "light",
+  "hideHeader": false
+}
+&lt;/script&gt;
+&lt;!-- Social Scheduler Form Embed End --&gt;
+        </div>
+
+        <h3>Features:</h3>
+        <ul>
+            <li>✅ Automatic UTM parameter tracking</li>
+            <li>✅ Referrer and landing page tracking</li>
+            <li>✅ Google Sheets integration</li>
+            <li>✅ Responsive design</li>
+            <li>✅ Light and dark themes</li>
+            <li>✅ Customizable dimensions</li>
+            <li>✅ Cross-domain compatibility</li>
+        </ul>
+    </div>
+</body>
+</html>

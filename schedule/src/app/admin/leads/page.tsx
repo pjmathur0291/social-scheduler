@@ -284,7 +284,7 @@ export default function LeadsManagementPage() {
                   <SelectItem value="all">All Sources</SelectItem>
                   <SelectItem value="direct">Direct Traffic</SelectItem>
                   {Array.from(new Set(leads.map(lead => lead.utmSource).filter(Boolean))).map(source => (
-                    <SelectItem key={source} value={source}>{source}</SelectItem>
+                    <SelectItem key={source} value={source as string}>{source}</SelectItem>
                   ))}
                 </SelectContent>
               </Select>
